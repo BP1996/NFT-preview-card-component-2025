@@ -13,17 +13,21 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .bg{
     background: hsl(217, 54%, 11%);
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
     gap: 40px;
     font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
 }
 
 .container{
@@ -46,7 +50,7 @@ img{
 }
 
 .intro-descricao{
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 15%, 71%);
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -61,6 +65,7 @@ img{
     display: flex;
     gap: 5px;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .valor img{
@@ -70,21 +75,21 @@ img{
 
 .valor h3{
     color: hsl(178, 100%, 50%);
-    align-self: center;
 }
 
 .dia img{
-    width: 17px;
-    height: 17px;
-    align-self: center;
+    width: 20px;
+    height: 20px;
 }
 
 .perfil{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 15%, 71%);
     font-weight: 400;
+    border-top: 1px solid hsla(215, 15%, 71%, 0.171);
+    padding: 20px 0 0 0;
 }
 
 .perfil-img{
@@ -96,7 +101,11 @@ img{
 }
 
 .dia h3{
-    color: hsl(215, 32%, 27%);
-    font-weight: 600;
+    color: hsl(215, 15%, 71%);
+    font-weight:300;
 
+}
+
+.attribution{
+    color: white;
 }
