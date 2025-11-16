@@ -49,6 +49,11 @@ a{
     font-weight: 600;
 }
 
+.intro-subtitulo:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
 .intro-descricao{
     color: hsl(215, 15%, 71%);
     margin-bottom: 30px;
@@ -94,6 +99,8 @@ a{
 
 .perfil-img{
     width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
 .perfil-descricao span{
@@ -106,6 +113,33 @@ a{
 
 }
 
+.dia h3:hover{
+    color: hsl(178, 100%, 50%);
+}
+
 .attribution{
     color: white;
+}
+
+.intro-imagem {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* overlay com o olho + cor */
+.intro-imagem::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: hsla(178, 100%, 50%, 0.4) url("images/icon-view.svg") no-repeat center;
+    opacity: 0;
+    transition: .3s ease;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* aparece no hover */
+.intro-imagem:hover::after {
+    opacity: 1;
 }
