@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,p,span{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.bg{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    background: hsl(216, 50%, 16%);
+    width: 330px;
+    height: 570px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.intro-imagem img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro-subtitulo{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.intro-descricao{
+    color: hsl(215, 32%, 27%);
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados-valor{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.valor img{
+    width: 10px;
+    height: 20px;
+}
+
+.valor h3{
+    color: hsl(178, 100%, 50%);
+    align-self: center;
+}
+
+.dia img{
+    width: 17px;
+    height: 17px;
+    align-self: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(215, 32%, 27%);
+    font-weight: 400;
+}
+
+.perfil-img{
+    width: 30px;
+}
+
+.perfil-descricao span{
+    color: white;
+}
+
+.dia h3{
+    color: hsl(215, 32%, 27%);
+    font-weight: 600;
+
+}
